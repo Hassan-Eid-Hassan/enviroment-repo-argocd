@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: java
-        image: 192.168.205.141:5000/repository/app/java:8
+        image: 192.168.205.141:5000/repository/app/java:16
         ports:
         - containerPort: 8090
