@@ -19,3 +19,5 @@ spec:
         image: 192.168.205.141:5000/repository/app/java:16
         ports:
         - containerPort: 8090
+      imagePullSecrets:
+      - name: nexus
